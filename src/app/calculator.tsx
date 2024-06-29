@@ -1,7 +1,6 @@
-'use client';
 import { useState, ChangeEvent, CSSProperties } from 'react';
 
-const Home: React.FC = () => {
+const Calculator: React.FC = () => {
   const [num1, setNum1] = useState<string>('');
   const [num2, setNum2] = useState<string>('');
   const [total, setTotal] = useState<number | null>(null);
@@ -78,4 +77,4 @@ const styles: { [key: string]: CSSProperties } = {
   },
 };
 
-export default Home;
+export default Calculator;
